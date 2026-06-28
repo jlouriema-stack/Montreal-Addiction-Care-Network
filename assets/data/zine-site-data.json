@@ -111,7 +111,8 @@
           ],
           "media_urls": [],
           "media_files": [
-            "assets/supplemental/domremy-le-progres-supplement.png"
+            "assets/supplemental/domremy-le-progres-supplement.png",
+            "assets/supplemental/domremy-maisons-domremy.png"
           ],
           "coordinates": "-73.8688876,45.4831892,0",
           "media_credit": "Le Progrès supplement / Domrémy visual source"
@@ -281,8 +282,11 @@
             "By 1971–72, Drug Help was already describing itself as working in a vacuum, with too little money and too few social alternatives behind it; later, the old Drogue-Secours experiment gave way toward MUTATION after subsidies were cut. That ending proves the larger point: Drogue-Secours did not appear because the system worked. It appeared because the existing system could not speak to youth drug use fast enough. In sum, 203 Prince-Arthur was a living emergency line between the street, the clinic, the hospital, and the counterculture."
           ],
           "media_urls": [],
-          "media_files": [],
-          "coordinates": "-73.5709903,45.5158602,0"
+          "media_files": [
+            "assets/supplemental/drogue-secours-building.png"
+          ],
+          "coordinates": "-73.5709903,45.5158602,0",
+          "media_credit": "Drogue-Secours building visual source"
         },
         {
           "index": 15,
@@ -360,8 +364,11 @@
             "shows the addiction system after Domrémy: no longer organized only around alcohol, no longer only emergency street care, and no longer dependent on borrowed recovery rooms, but moving toward specialized drug treatment for polytoxicomania."
           ],
           "media_urls": [],
-          "media_files": [],
-          "coordinates": "-73.6225989,45.6069951,0"
+          "media_files": [
+            "assets/supplemental/aspa-centre-logo.png"
+          ],
+          "coordinates": "-73.6225989,45.6069951,0",
+          "media_credit": "Centre A.S.P.A. logo"
         },
         {
           "index": 20,
