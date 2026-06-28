@@ -353,8 +353,11 @@
             "It was a para-institutional bridge: discipline without prison, care without a formal state system, and rehabilitation built around ex-users, residence, spirituality, labour, and community life. In sum, Spera Montreal shows how drug treatment after 1970 moved into halfway houses, transition homes, referral networks, and therapeutic communities when the older alcoholism system could not carry the new drug crisis."
           ],
           "media_urls": [],
-          "media_files": [],
-          "coordinates": "-73.5604234,45.4919465,0"
+          "media_files": [
+            "assets/supplemental/spera-house.png"
+          ],
+          "coordinates": "-73.5604234,45.4919465,0",
+          "media_credit": "Spera house visual source"
         },
         {
           "index": 19,
