@@ -318,8 +318,11 @@
             "Drogue-Secours and similar groups could calm, accompany, refer, and translate youth experience; hospitals were needed when the body or mind crossed into danger. The E.D.M. Unit therefore represents emergency capacity rather than long-term rehabilitation. It was one node in a wider survival chain: friend, peer helper, drug-help line, clinic, ambulance, hospital bed. In sum, the Jewish General Hospital shows the rupture becoming medical without becoming fully institutionalized. Drug care had moved outward into the street and community, but the emergency door still led back into the hospital."
           ],
           "media_urls": [],
-          "media_files": [],
-          "coordinates": "-73.6300101,45.4974933,0"
+          "media_files": [
+            "assets/supplemental/jewish-general-hospital.png"
+          ],
+          "coordinates": "-73.6300101,45.4974933,0",
+          "media_credit": "Jewish General Hospital visual source"
         },
         {
           "index": 17,
@@ -381,8 +384,11 @@
             "Head & Hands therefore shows youth care after Manseau becoming broader than bad-trip rescue: health, law, sexuality, drugs, housing, rights, family conflict, and survival all entered the same first-line community doorway."
           ],
           "media_urls": [],
-          "media_files": [],
-          "coordinates": "-73.627886,45.4656723,0"
+          "media_files": [
+            "assets/supplemental/head-and-hands-group.png"
+          ],
+          "coordinates": "-73.627886,45.4656723,0",
+          "media_credit": "Head & Hands visual source"
         }
       ]
     }
