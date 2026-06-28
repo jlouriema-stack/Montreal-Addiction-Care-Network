@@ -283,7 +283,10 @@
           ],
           "media_urls": [],
           "media_files": [
-            "assets/supplemental/drogue-secours-building.png"
+            "assets/supplemental/drogue-secours-building.png",
+            "assets/supplemental/drogue-secours-room-care.jpg",
+            "assets/supplemental/drogue-secours-phone.jpg",
+            "assets/supplemental/drogue-secours-203-door.jpg"
           ],
           "coordinates": "-73.5709903,45.5158602,0",
           "media_credit": "Drogue-Secours building visual source"
