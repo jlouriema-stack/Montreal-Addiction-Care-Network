@@ -381,7 +381,9 @@
           ],
           "media_urls": [],
           "media_files": [
-            "assets/supplemental/mainmise-map.png"
+            "assets/supplemental/mainmise-map.png",
+            "assets/supplemental/mainmise-issue-11-cover.png",
+            "assets/supplemental/logos-lsd-mothers-cover.png"
           ],
           "coordinates": "",
           "visual_type": "print-network",
