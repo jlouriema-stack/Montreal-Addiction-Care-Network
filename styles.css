@@ -1076,6 +1076,12 @@ h1 {
   filter: grayscale(0.28) contrast(1.08) saturate(0.95);
 }
 
+.media-frame img.edm-scan-image {
+  aspect-ratio: auto;
+  max-height: none;
+  object-fit: contain;
+}
+
 .media-placeholder .placeholder-inner {
   background:
     repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.08) 0 2px, transparent 2px 10px),
