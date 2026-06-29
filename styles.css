@@ -827,6 +827,225 @@ code {
   transform: rotate(-3deg);
 }
 
+#domremy {
+  isolation: isolate;
+  border: 5px solid var(--paper);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.06), transparent 28%),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.28) 2px, transparent 2px),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.32) 2px, transparent 2px),
+    repeating-linear-gradient(0deg, rgba(248, 239, 215, 0.06) 0 36px, rgba(255, 59, 31, 0.06) 36px 72px),
+    #090806;
+  background-size: auto, 96px 48px, 96px 48px, auto, auto;
+  box-shadow: 15px 15px 0 #2f1d18, -8px -8px 0 var(--acid), 0 0 0 8px rgba(0, 0, 0, 0.62);
+}
+
+#domremy::before {
+  content: "DOMREMY / CURE HOUSE";
+  z-index: 3;
+  top: -27px;
+  left: 52px;
+  width: auto;
+  height: auto;
+  padding: 7px 12px 5px;
+  border: 3px solid var(--ink);
+  background: var(--paper);
+  box-shadow: 6px 6px 0 var(--danger);
+  color: var(--ink);
+  font-family: "Archivo Black", Impact, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0;
+  transform: rotate(-2deg);
+}
+
+#domremy::after {
+  content: "";
+  position: absolute;
+  inset: 18px;
+  z-index: 0;
+  pointer-events: none;
+  border: 2px dashed rgba(248, 239, 215, 0.28);
+  background:
+    radial-gradient(circle at 10% 16%, rgba(248, 239, 215, 0.13) 0 2px, transparent 3px),
+    radial-gradient(circle at 86% 22%, rgba(243, 255, 0, 0.16) 0 2px, transparent 3px),
+    radial-gradient(circle at 76% 86%, rgba(255, 59, 31, 0.16) 0 2px, transparent 3px);
+}
+
+#domremy > :not(.domremy-prison-decor) {
+  position: relative;
+  z-index: 2;
+}
+
+#domremy .heading {
+  background: var(--paper);
+  box-shadow: 7px 7px 0 var(--danger), 11px 11px 0 rgba(0, 0, 0, 0.8);
+  transform: rotate(-0.7deg);
+}
+
+#domremy .section-kicker {
+  background: #2f1d18;
+  box-shadow: 5px 5px 0 var(--ink);
+}
+
+.domremy-prison-decor {
+  position: absolute;
+  inset: -34px -26px -24px -72px;
+  z-index: 1;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.domremy-spine {
+  position: absolute;
+  top: 96px;
+  bottom: 78px;
+  left: 0;
+  width: 70px;
+  filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.72));
+}
+
+.domremy-spine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 32px;
+  width: 8px;
+  border-radius: 8px;
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.35), transparent 42%),
+    var(--paper);
+}
+
+.domremy-spine::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 0 4px;
+  background:
+    radial-gradient(ellipse at 38px 14px, var(--paper) 0 14px, transparent 15px) 0 0 / 64px 46px repeat-y,
+    radial-gradient(ellipse at 32px 35px, #2f1d18 0 8px, transparent 9px) 0 0 / 64px 46px repeat-y;
+  transform: rotate(-2deg);
+}
+
+.domremy-cross {
+  position: absolute;
+  width: 44px;
+  height: 62px;
+  opacity: 0.88;
+}
+
+.domremy-cross::before,
+.domremy-cross::after {
+  content: "";
+  position: absolute;
+  background: var(--paper);
+  box-shadow: 4px 4px 0 var(--danger);
+}
+
+.domremy-cross::before {
+  left: 17px;
+  top: 0;
+  width: 10px;
+  height: 62px;
+}
+
+.domremy-cross::after {
+  left: 3px;
+  top: 19px;
+  width: 38px;
+  height: 10px;
+}
+
+.cross-1 {
+  top: 80px;
+  right: 48px;
+  transform: rotate(8deg);
+}
+
+.cross-2 {
+  top: 380px;
+  left: 36px;
+  transform: rotate(-9deg) scale(0.78);
+}
+
+.cross-3 {
+  right: 88px;
+  bottom: 72px;
+  transform: rotate(-5deg) scale(0.9);
+}
+
+.domremy-rosary {
+  position: absolute;
+  width: 128px;
+  height: 158px;
+  border: 5px dotted rgba(248, 239, 215, 0.88);
+  border-radius: 54% 46% 48% 52%;
+  opacity: 0.72;
+  filter: drop-shadow(4px 4px 0 rgba(0, 0, 0, 0.7));
+}
+
+.domremy-rosary::before {
+  content: "";
+  position: absolute;
+  left: 58px;
+  bottom: -43px;
+  width: 6px;
+  height: 42px;
+  background: var(--paper);
+  box-shadow: 3px 3px 0 var(--danger);
+}
+
+.domremy-rosary::after {
+  content: "";
+  position: absolute;
+  left: 45px;
+  bottom: -61px;
+  width: 32px;
+  height: 32px;
+  background:
+    linear-gradient(90deg, transparent 0 38%, var(--paper) 38% 62%, transparent 62%),
+    linear-gradient(0deg, transparent 0 38%, var(--paper) 38% 62%, transparent 62%);
+  box-shadow: 4px 4px 0 var(--danger);
+}
+
+.rosary-1 {
+  top: 138px;
+  right: -10px;
+  transform: rotate(14deg);
+}
+
+.rosary-2 {
+  bottom: 132px;
+  left: 16px;
+  transform: rotate(-12deg) scale(0.78);
+}
+
+.domremy-brick-tag {
+  position: absolute;
+  padding: 5px 9px 4px;
+  border: 3px solid var(--ink);
+  background: var(--acid);
+  box-shadow: 5px 5px 0 var(--danger);
+  color: var(--ink);
+  font-family: "Archivo Black", Impact, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.brick-tag-1 {
+  top: 272px;
+  right: 30px;
+  transform: rotate(-5deg);
+}
+
+.brick-tag-2 {
+  left: 28px;
+  bottom: 42px;
+  transform: rotate(7deg);
+}
+
 .intro-panel {
   border-color: var(--ink);
   background:
@@ -1414,6 +1633,14 @@ a {
 
   .topic-container:nth-of-type(even) {
     box-shadow: 7px 7px 0 var(--blue), -4px -4px 0 var(--green);
+  }
+
+  #domremy {
+    overflow: hidden;
+  }
+
+  .domremy-prison-decor {
+    display: none;
   }
 
   .heading,
