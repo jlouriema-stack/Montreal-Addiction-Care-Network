@@ -841,6 +841,64 @@ code {
   box-shadow: 10px 10px 0 var(--acid), -5px -5px 0 var(--danger);
 }
 
+.method-heading {
+  display: inline-block;
+  margin: 24px 0 2px;
+  padding: 6px 10px 4px;
+  border: 3px solid var(--ink);
+  background: var(--acid);
+  box-shadow: 5px 5px 0 var(--danger);
+  color: var(--ink);
+  font-family: "Archivo Black", Impact, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.05;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  transform: rotate(-1deg);
+}
+
+.conclusion-panel {
+  border-width: 5px;
+  background:
+    linear-gradient(145deg, rgba(255, 59, 31, 0.16), transparent 34%),
+    repeating-linear-gradient(-6deg, rgba(243, 255, 0, 0.08) 0 2px, transparent 2px 18px),
+    #050505;
+  box-shadow: 15px 15px 0 var(--acid), -8px -8px 0 var(--danger);
+}
+
+.conclusion-panel::after {
+  content: "1944 -> 1977";
+  position: absolute;
+  right: 34px;
+  bottom: -24px;
+  padding: 8px 12px 6px;
+  border: 3px solid var(--ink);
+  background: var(--danger);
+  box-shadow: 5px 5px 0 var(--ink);
+  color: var(--paper);
+  font-family: "Archivo Black", Impact, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0;
+  transform: rotate(2deg);
+}
+
+.conclusion-panel .left-aligned-text-block {
+  max-width: 870px;
+  font-size: 22px;
+  line-height: 1.58;
+}
+
+.conclusion-panel .left-aligned-text-block p:last-child {
+  margin-top: 30px;
+  padding: 18px 20px;
+  border: 3px solid var(--ink);
+  background: var(--acid);
+  box-shadow: 7px 7px 0 var(--danger);
+  color: var(--ink);
+  font-family: "Special Elite", Georgia, serif;
+}
+
 .heading,
 h1 {
   display: inline;
