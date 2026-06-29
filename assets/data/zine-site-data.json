@@ -299,12 +299,11 @@
           "media_urls": [],
           "media_files": [
             "assets/supplemental/drogue-secours-building.png",
+            "assets/supplemental/drogue-secours-youth-organism.png",
             "assets/supplemental/drogue-secours-question.png",
             "assets/supplemental/drogue-secours-room-care.jpg",
             "assets/supplemental/drogue-secours-phone.jpg",
-            "assets/supplemental/drogue-secours-203-door.jpg",
-            "assets/supplemental/drogue-secours-na-montreal-stanke.png",
-            "assets/supplemental/drogue-secours-avenir.png"
+            "assets/supplemental/drogue-secours-203-door.jpg"
           ],
           "coordinates": "-73.5709903,45.5158602,0",
           "media_credit": "Drogue-Secours building visual source"
