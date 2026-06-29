@@ -611,6 +611,13 @@ code {
   transform: rotate(-5deg);
 }
 
+.margin-scrap-7 {
+  top: 4460px;
+  left: max(18px, calc((100vw - 1010px) / 2 - 132px));
+  width: clamp(92px, 8vw, 132px);
+  transform: rotate(7deg);
+}
+
 .w-container {
   max-width: 1010px;
 }

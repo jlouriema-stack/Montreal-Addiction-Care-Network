@@ -116,7 +116,9 @@
           "media_urls": [],
           "media_files": [
             "assets/supplemental/domremy-le-progres-supplement.png",
-            "assets/supplemental/domremy-maisons-domremy.png"
+            "assets/supplemental/domremy-maisons-domremy.png",
+            "assets/supplemental/domremy-lacordaire-17000.png",
+            "assets/supplemental/domremy-alcoolique-question.png"
           ],
           "coordinates": "-73.8688876,45.4831892,0",
           "media_credit": "Le Progrès supplement / Domrémy visual source"
@@ -331,7 +333,8 @@
           ],
           "media_urls": [],
           "media_files": [
-            "assets/supplemental/jewish-general-hospital.png"
+            "assets/supplemental/jewish-general-hospital.png",
+            "assets/supplemental/jewish-edm-dope-on-dope.png"
           ],
           "coordinates": "-73.6300101,45.4974933,0",
           "media_credit": "Jewish General Hospital visual source"
@@ -350,9 +353,11 @@
             "https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzpeuOKtCYwKPyHFPFAWzp6uygxDk4RQ0oRYWXWB2ZJxXDE4nEnIuecwNP0FT0YNvHwZtkdfRMs85Jha6s3SbWFQGW8lHuTMme00hFaPOHt4CTU_YF9dcBdDk7QbA5XZCmcP2uu_uurd2PeE-d27IJz37_hvxl81zaKETSzpkUp2QqYkk4qMfeRkhrxMmcEE6rMcQaoJF8CxtbJG5nyJg3bRwAGnbMFAisurT0t_eL8ghSpiKGzU6RV0uY?authuser=1&fife=s16383"
           ],
           "media_files": [
+            "assets/supplemental/westmount-4424-raided.png",
             "assets/kml-media/chapter-17-01.jpg"
           ],
-          "coordinates": "-73.5914631,45.4822419,0"
+          "coordinates": "-73.5914631,45.4822419,0",
+          "media_credit": "Westmount Examiner / 4424 Youth Centre raid clipping"
         },
         {
           "index": 21,
