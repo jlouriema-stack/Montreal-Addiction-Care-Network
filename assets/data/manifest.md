@@ -1,6 +1,6 @@
 # Montreal Addiction Care Network Website Manifest
 
-- KML source: `C:\Users\DELL\OneDrive\Documents\Montreal Addiction Care Network (1944–1977).kml`
+- KML source: Montreal Addiction Care Network research map
 - Sections: 6
 - Entries: 20
 - Local media files: 27
