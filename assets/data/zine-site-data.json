@@ -289,6 +289,7 @@
           "media_urls": [],
           "media_files": [
             "assets/supplemental/drogue-secours-building.png",
+            "assets/supplemental/drogue-secours-question.png",
             "assets/supplemental/drogue-secours-room-care.jpg",
             "assets/supplemental/drogue-secours-phone.jpg",
             "assets/supplemental/drogue-secours-203-door.jpg"
@@ -311,10 +312,12 @@
             "https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxDI8NK1_LOm3pyb7xvBSih15GV81kRAW2A-_SEXAtWidIzAJYbdAjSHiwo6qmTfra7ka-wj0rh86vBBNdGIpDHnOoOTOAHYKCwBTAVGaSJiMyJYvWDx_8p1VHcpcnvhK2vUrHZxdc5ixux3f86tri84qc6YAVZ5HUnvpDJS3ugAi-9MAhGbpaGxgAJX12yfdwcHokH-_vKPDCVXJM_xOBlKVv1RHkiFz82jtoNVXbBbx5B5P2ls09lGN8?authuser=1&fife=s16383"
           ],
           "media_files": [
+            "assets/supplemental/kalatox-listing.png",
             "assets/kml-media/chapter-15-01.jpg",
             "assets/kml-media/chapter-15-02.jpg"
           ],
-          "coordinates": "-73.5501459,45.531799,0"
+          "coordinates": "-73.5501459,45.531799,0",
+          "media_credit": "Kalatox listing visual source"
         },
         {
           "index": 16,
@@ -363,9 +366,12 @@
             "By 1973, Mainmise's Adresses utiles and LOGOS service listings made the first line visibly cartographic. Youth care was being distributed through print, peer knowledge, clinics, crisis phones, storefront projects, and community networks before the state had fully reorganized the field."
           ],
           "media_urls": [],
-          "media_files": [],
+          "media_files": [
+            "assets/supplemental/mainmise-map.png"
+          ],
           "coordinates": "",
-          "visual_type": "print-network"
+          "visual_type": "print-network",
+          "media_credit": "Mainmise / LOGOS youth-service map visual source"
         },
         {
           "index": 18,

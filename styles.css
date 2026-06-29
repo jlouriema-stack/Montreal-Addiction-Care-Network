@@ -552,6 +552,65 @@ code {
   z-index: 1;
 }
 
+.margin-collage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  min-height: 5600px;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.margin-scrap {
+  position: absolute;
+  width: clamp(92px, 10vw, 160px);
+  border: 5px solid var(--paper);
+  background: var(--paper);
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.78), 9px 9px 0 var(--danger);
+  filter: sepia(0.34) grayscale(0.18) contrast(1.18) saturate(0.88);
+  opacity: 0.82;
+}
+
+.margin-scrap-1 {
+  top: 720px;
+  left: max(12px, calc((100vw - 1010px) / 2 - 170px));
+  transform: rotate(-7deg);
+}
+
+.margin-scrap-2 {
+  top: 1120px;
+  right: max(12px, calc((100vw - 1010px) / 2 - 178px));
+  width: clamp(112px, 11vw, 178px);
+  transform: rotate(5deg);
+}
+
+.margin-scrap-3 {
+  top: 1680px;
+  left: max(14px, calc((100vw - 1010px) / 2 - 156px));
+  transform: rotate(4deg);
+}
+
+.margin-scrap-4 {
+  top: 2260px;
+  right: max(18px, calc((100vw - 1010px) / 2 - 138px));
+  width: clamp(78px, 7vw, 118px);
+  transform: rotate(-9deg);
+}
+
+.margin-scrap-5 {
+  top: 3040px;
+  left: max(16px, calc((100vw - 1010px) / 2 - 152px));
+  transform: rotate(6deg);
+}
+
+.margin-scrap-6 {
+  top: 3820px;
+  right: max(16px, calc((100vw - 1010px) / 2 - 148px));
+  transform: rotate(-5deg);
+}
+
 .w-container {
   max-width: 1010px;
 }
@@ -1031,6 +1090,17 @@ h1 {
   transform: rotate(-1deg);
 }
 
+.print-map-frame {
+  margin-bottom: 22px;
+  transform: rotate(1.4deg);
+}
+
+.print-map-frame img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  filter: sepia(0.38) grayscale(0.12) contrast(1.14) saturate(0.84);
+}
+
 .print-card {
   position: relative;
   overflow: hidden;
@@ -1187,6 +1257,12 @@ a {
 
 .intro-panel a {
   color: #8b1305;
+}
+
+@media screen and (max-width: 1180px) {
+  .margin-collage {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
