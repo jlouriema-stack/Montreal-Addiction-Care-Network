@@ -187,7 +187,8 @@
             "https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gz2crnKB2bM6lOLYl_lK8cZcTxMAIxV-3EvlQTA2sEtVeCTCOIWrVzVZlJKkdsBbre2fY14GpwL7WKVq1j2SE7V7UdCMfXkQTlAV-BFHzC8bggOlqIAhHJaBT0dZ6nPfyCaxFGBdSK2NL-fkWplEi2Fmt9QW7BWDJry2B-HW6ymScUfgAFzcJrUvA2t3UlLk5lSEAZ6lshl2fEKxS-1g5I3ItMNiCw4UYLfVTq160x8Z0-0LEpl37Q1jM0?authuser=1&fife=s16383"
           ],
           "media_files": [
-            "assets/kml-media/chapter-09-01.jpg"
+            "assets/kml-media/chapter-09-01.jpg",
+            "assets/supplemental/narcotics-anonymous-avenir.png"
           ],
           "coordinates": "-73.639126,45.4581244,0"
         },
@@ -205,7 +206,8 @@
             "https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gx0KNn3u7_meKnzN6mTe5Bmu5GwDP_k2iHSYDk3HogQLZCcXoDxBTOra-2G76Wv-jq6iAErBsenTHqQgj-V-_5yqGM-P5oLEUz32YwobV3ctxl6VgroQ38uJNC6Ad5Wf8m5-G57XQatbbiaOVE-WZPD-nbRlMTup4hKjdmr7AOb3jg6CtgLL_RunrpTvtttAeM_10I9jb755bpQhFH_4NyFcM7L4oSLCd47lobywgVOPBA-DvxWYkWUzp0?authuser=1&fife=s16383"
           ],
           "media_files": [
-            "assets/kml-media/chapter-10-01.jpg"
+            "assets/kml-media/chapter-10-01.jpg",
+            "assets/supplemental/narcotics-anonymous-montreal-stanke.png"
           ],
           "coordinates": "-73.5688551,45.5318963,0"
         },
@@ -222,7 +224,8 @@
             "https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwT9QeX6CZZKmZjoyDw3prmSfH_hLta1DBdoBgFCrhsOh-W288rSh8aiIGnAk4xGtfXmEHG-5Ocm-GRKCVZGANul6tSAlSnEe9Sht5EeMH9HUmQ-NsI3Hreaet5ioNfel0E64bD-jezi5Dgc1lEFAjqySF8zujFB4KRRXZU9Xh4xwkk9d7bj7pJErJbG2FJDDnzHjmV_e3uMLtSQV_gImXx5BEQMe58vP6_jFoRVcO2vc8vEjy0ANLeNl0?authuser=1&fife=s16383"
           ],
           "media_files": [
-            "assets/kml-media/chapter-11-01.jpg"
+            "assets/kml-media/chapter-11-01.jpg",
+            "assets/supplemental/narcotics-anonymous-youth-drugs.png"
           ],
           "coordinates": "-73.5843176,45.5298068,0"
         },
@@ -267,7 +270,12 @@
             "https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzwMZ49dDhhhoatHGu7Btrg77ZdNh4MQZ7AeapRQOlfEn-yIbZBu5V45fvAbUPduMzIejRK_YkrI_MgC6zUMpFJUMocGpkua_gBXdYnv_vVskN4WqjXYKXzWbkyiNo0XeNYbhTJdU3o2aWgwulLusAkOG3Jn0VsazkyLn0qORlWkdCrbGgvLfyiy2tb31q2j-qscmhNF93g3rCApPNN0ULGR3io1GZz5IodNY-gp6SoXQ_2rmKDXocPmxY?authuser=1&fife=s16383"
           ],
           "media_files": [
-            "assets/kml-media/chapter-13-01.jpg"
+            "assets/kml-media/chapter-13-01.jpg",
+            "assets/supplemental/manseau-lapresse-sombrero.jpg",
+            "assets/supplemental/manseau-photo-police-fiasco.jpg",
+            "assets/supplemental/manseau-photo-police-cover.png",
+            "assets/supplemental/manseau-road-emergency.png",
+            "assets/supplemental/manseau-site-photo.jpg"
           ],
           "coordinates": "-72.0021189,46.36804,0"
         }
@@ -294,7 +302,9 @@
             "assets/supplemental/drogue-secours-question.png",
             "assets/supplemental/drogue-secours-room-care.jpg",
             "assets/supplemental/drogue-secours-phone.jpg",
-            "assets/supplemental/drogue-secours-203-door.jpg"
+            "assets/supplemental/drogue-secours-203-door.jpg",
+            "assets/supplemental/drogue-secours-na-montreal-stanke.png",
+            "assets/supplemental/drogue-secours-avenir.png"
           ],
           "coordinates": "-73.5709903,45.5158602,0",
           "media_credit": "Drogue-Secours building visual source"
