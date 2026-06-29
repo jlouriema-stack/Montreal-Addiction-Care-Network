@@ -1027,6 +1027,108 @@ h1 {
   color: var(--ink);
 }
 
+.print-network-card {
+  transform: rotate(-1deg);
+}
+
+.print-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 480px;
+  padding: 34px 26px 28px;
+  border: 10px solid var(--paper);
+  background:
+    linear-gradient(90deg, rgba(255, 59, 31, 0.18) 0 8px, transparent 8px 18px),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0 2px, transparent 2px 12px),
+    var(--acid);
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.86), 12px 12px 0 var(--danger);
+  color: var(--ink);
+}
+
+.print-card::before {
+  content: "";
+  position: absolute;
+  inset: 16px;
+  border: 3px dashed var(--ink);
+  opacity: 0.68;
+  pointer-events: none;
+}
+
+.print-label {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 18px;
+  padding: 5px 8px 3px;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: "Special Elite", Georgia, serif;
+  font-size: 16px;
+  line-height: 1;
+  text-transform: uppercase;
+  transform: rotate(-2deg);
+}
+
+.print-card strong {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: max-content;
+  max-width: 100%;
+  margin: 0 0 10px;
+  padding: 4px 9px 1px;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Archivo Black", Impact, Arial, sans-serif;
+  font-size: clamp(40px, 8vw, 74px);
+  line-height: 0.92;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  transform: rotate(1deg);
+}
+
+.print-card strong:nth-of-type(2) {
+  margin-left: auto;
+  background: var(--danger);
+  color: var(--paper);
+  transform: rotate(-2deg);
+}
+
+.print-card p {
+  position: relative;
+  z-index: 1;
+  margin: 30px 0 18px;
+  padding: 9px 10px;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: "Special Elite", Georgia, serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.print-card ul {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.print-card li {
+  padding: 7px 8px 5px;
+  border: 2px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Archivo Black", Impact, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
 .illustration-attribution {
   display: inline-block;
   margin: 14px 0 34px 16px;
@@ -1131,6 +1233,15 @@ a {
   }
 
   .date-strip li {
+    grid-template-columns: 1fr;
+  }
+
+  .print-card {
+    min-height: 410px;
+    padding: 28px 20px 24px;
+  }
+
+  .print-card ul {
     grid-template-columns: 1fr;
   }
 
