@@ -609,6 +609,59 @@ code {
   transform: rotate(-1deg);
 }
 
+.nav-dropdown {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-dropdown-toggle::after {
+  content: " +";
+  color: currentColor;
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 20;
+  min-width: 164px;
+  padding: 8px;
+  border: 3px solid var(--paper);
+  background: var(--ink);
+  box-shadow: 7px 7px 0 var(--danger);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-5px) rotate(1deg);
+  transition: opacity 140ms ease, transform 140ms ease, visibility 140ms ease;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) rotate(1deg);
+}
+
+.nav-dropdown-link {
+  display: block;
+  padding: 9px 10px;
+  color: var(--paper);
+  font-family: "Archivo Black", Impact, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-dropdown-link:hover,
+.nav-dropdown-link:focus {
+  background: var(--acid);
+  color: var(--ink);
+  text-decoration: none;
+}
+
 .container-2 {
   margin-top: 42px;
 }
@@ -628,7 +681,7 @@ code {
 }
 
 .speech-bubble::before {
-  content: "RECOVERY ZINE";
+  content: "RECOVERY NETWORK";
   position: absolute;
   top: 18px;
   left: 32px;
@@ -829,6 +882,22 @@ h1 {
   text-transform: uppercase;
 }
 
+.subheading {
+  display: inline-block;
+  margin: 22px 0 4px;
+  padding: 5px 10px 3px;
+  border: 3px solid var(--ink);
+  background: var(--acid);
+  box-shadow: 5px 5px 0 var(--danger);
+  color: var(--ink);
+  font-family: "Archivo Black", Impact, Arial, sans-serif;
+  font-size: 25px;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  transform: rotate(-1deg);
+}
+
 .left-aligned-text-block {
   margin-top: 28px;
   color: #f1e7ce;
@@ -997,6 +1066,26 @@ a {
   .nav-link {
     flex: 0 0 auto;
     font-size: 12px;
+  }
+
+  .nav-dropdown {
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-dropdown-menu {
+    position: static;
+    display: none;
+    min-width: 142px;
+    margin: 2px 8px 0 0;
+    transform: none;
+  }
+
+  .nav-dropdown:hover .nav-dropdown-menu,
+  .nav-dropdown:focus-within .nav-dropdown-menu {
+    display: block;
+    transform: none;
   }
 
   .speech-bubble {
