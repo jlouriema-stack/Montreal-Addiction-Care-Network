@@ -1495,6 +1495,56 @@ h1 {
   object-fit: cover;
 }
 
+.mini-gallery-card {
+  margin: 0;
+}
+
+.mini-gallery-card--wide {
+  grid-column: 1 / -1;
+  width: min(100%, 860px);
+  justify-self: center;
+  margin-top: 16px;
+}
+
+.mini-gallery-card--wide img {
+  width: 100%;
+  aspect-ratio: auto;
+  max-height: 780px;
+  border: 9px solid var(--paper);
+  background: var(--paper);
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.86), 14px 14px 0 var(--danger);
+  object-fit: contain;
+  filter: contrast(1.08) saturate(1.02);
+  transform: rotate(-1.1deg);
+}
+
+.entry-feature-card {
+  display: block;
+  margin: 48px auto 28px;
+}
+
+.entry-feature-card.manseau-visit-card {
+  width: min(100%, 900px);
+}
+
+.entry-feature-card .manseau-visit-image {
+  max-height: none;
+}
+
+.mini-gallery-caption {
+  display: block;
+  margin: 18px 10px 4px;
+  padding: 10px 12px 8px;
+  border: 2px solid var(--ink);
+  background: var(--acid);
+  box-shadow: 5px 5px 0 var(--danger);
+  color: var(--ink);
+  font-family: "Special Elite", Georgia, serif;
+  font-size: 15px;
+  line-height: 1.35;
+  transform: rotate(0.7deg);
+}
+
 .mini-gallery img:nth-child(odd) {
   transform: rotate(1.8deg);
 }
