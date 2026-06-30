@@ -121,7 +121,7 @@
             "assets/supplemental/domremy-alcoolique-question.png"
           ],
           "coordinates": "-73.8688876,45.4831892,0",
-          "media_credit": "Le Progrès supplement / Domrémy visual source"
+          "media_credit": "Le Progrès supplement / Domrémy"
         }
       ]
     },
@@ -305,7 +305,7 @@
             "assets/supplemental/drogue-secours-203-door.jpg"
           ],
           "coordinates": "-73.5709903,45.5158602,0",
-          "media_credit": "Drogue-Secours building visual source"
+          "media_credit": "Drogue-Secours building"
         },
         {
           "index": 15,
@@ -327,7 +327,7 @@
             "assets/kml-media/chapter-15-02.jpg"
           ],
           "coordinates": "-73.5501459,45.531799,0",
-          "media_credit": "Kalatox listing visual source"
+          "media_credit": "Kalatox listing"
         },
         {
           "index": 16,
@@ -386,7 +386,7 @@
           ],
           "coordinates": "",
           "visual_type": "print-network",
-          "media_credit": "Mainmise / LOGOS youth-service map visual source"
+          "media_credit": "Mainmise / LOGOS youth-service map"
         },
         {
           "index": 18,
@@ -404,7 +404,7 @@
             "assets/supplemental/spera-house.png"
           ],
           "coordinates": "-73.5604234,45.4919465,0",
-          "media_credit": "Spera house visual source"
+          "media_credit": "Spera house"
         },
         {
           "index": 19,
@@ -439,7 +439,7 @@
             "assets/supplemental/head-and-hands-group.png"
           ],
           "coordinates": "-73.627886,45.4656723,0",
-          "media_credit": "Head & Hands visual source"
+          "media_credit": "Head & Hands"
         }
       ]
     }
