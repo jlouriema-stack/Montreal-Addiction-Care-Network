@@ -829,138 +829,30 @@ code {
 
 #domremy {
   isolation: isolate;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(6, 4, 3, 0.76), rgba(6, 4, 3, 0.88)),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 13px),
+    #090806;
 }
 
-#domremy > :not(.domremy-rosary-decor) {
+#domremy::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 76% 20%, rgba(255, 198, 88, 0.24), transparent 0 28%, transparent 46%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.68)),
+    url("assets/supplemental/domremy-cross-spine-background.png") center center / cover no-repeat;
+  opacity: 0.34;
+  filter: saturate(1.18) contrast(1.12);
+}
+
+#domremy > * {
   position: relative;
   z-index: 2;
-}
-
-.domremy-rosary-decor {
-  position: absolute;
-  inset: -46px -38px -52px -42px;
-  z-index: 1;
-  overflow: visible;
-  pointer-events: none;
-  filter: drop-shadow(4px 4px 0 rgba(0, 0, 0, 0.72));
-}
-
-.rosary-chain {
-  position: absolute;
-  opacity: 0.9;
-  background:
-    radial-gradient(circle at 50% 50%, #fff7dd 0 4px, #9b8f7a 5px 8px, #17120f 9px 10px, transparent 11px);
-}
-
-.rosary-chain-top {
-  top: 5px;
-  left: 7%;
-  right: 8%;
-  height: 34px;
-  background-size: 31px 31px;
-  background-repeat: repeat-x;
-  transform: rotate(-1.8deg);
-}
-
-.rosary-chain-left {
-  top: 94px;
-  bottom: 88px;
-  left: -6px;
-  width: 34px;
-  background-size: 31px 31px;
-  background-repeat: repeat-y;
-  transform: rotate(1.5deg);
-}
-
-.rosary-chain-right {
-  top: 146px;
-  right: -8px;
-  bottom: 120px;
-  width: 34px;
-  background-size: 31px 31px;
-  background-repeat: repeat-y;
-  transform: rotate(-1deg);
-}
-
-.rosary-loop {
-  position: absolute;
-  border: 6px dotted rgba(255, 247, 221, 0.86);
-  border-radius: 52% 48% 56% 44%;
-  opacity: 0.82;
-}
-
-.rosary-loop::before {
-  content: "";
-  position: absolute;
-  inset: -9px;
-  border: 2px solid rgba(0, 0, 0, 0.36);
-  border-radius: inherit;
-}
-
-.rosary-loop-1 {
-  top: 58px;
-  right: -12px;
-  width: 188px;
-  height: 254px;
-  transform: rotate(16deg);
-}
-
-.rosary-loop-2 {
-  left: 8px;
-  bottom: 108px;
-  width: 158px;
-  height: 226px;
-  transform: rotate(-15deg);
-}
-
-.rosary-cross {
-  position: absolute;
-  width: 54px;
-  height: 76px;
-  opacity: 0.94;
-}
-
-.rosary-cross::before,
-.rosary-cross::after {
-  content: "";
-  position: absolute;
-  border: 2px solid #17120f;
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.36), transparent 42%),
-    #d9c8aa;
-  box-shadow: 4px 4px 0 var(--danger);
-}
-
-.rosary-cross::before {
-  left: 20px;
-  top: 0;
-  width: 14px;
-  height: 76px;
-}
-
-.rosary-cross::after {
-  left: 2px;
-  top: 27px;
-  width: 50px;
-  height: 14px;
-}
-
-.rosary-cross-1 {
-  top: -30px;
-  left: 58px;
-  transform: rotate(9deg) scale(0.78);
-}
-
-.rosary-cross-2 {
-  right: 122px;
-  bottom: -38px;
-  transform: rotate(-10deg);
-}
-
-.rosary-cross-3 {
-  top: 318px;
-  right: -8px;
-  transform: rotate(12deg) scale(0.72);
 }
 
 #the-rupture-manseau {
@@ -1582,10 +1474,6 @@ a {
 
   #domremy {
     overflow: hidden;
-  }
-
-  .domremy-rosary-decor {
-    display: none;
   }
 
   .heading,
