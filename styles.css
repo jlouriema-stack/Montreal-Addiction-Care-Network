@@ -1518,11 +1518,11 @@ h1 {
   transform: rotate(1.1deg);
 }
 
-#09-lynn-a .image-column {
+article.entry[id^="09-lynn-a"] .image-column {
   flex-basis: 56%;
 }
 
-#09-lynn-a .text-column {
+article.entry[id^="09-lynn-a"] .text-column {
   flex-basis: 44%;
 }
 
@@ -1669,8 +1669,8 @@ a {
     order: -1;
   }
 
-  #09-lynn-a .image-column,
-  #09-lynn-a .text-column {
+  article.entry[id^="09-lynn-a"] .image-column,
+  article.entry[id^="09-lynn-a"] .text-column {
     flex-basis: auto;
   }
 
